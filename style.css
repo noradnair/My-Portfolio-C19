@@ -1,0 +1,33 @@
+
+    
+    h1 {
+        color: rgb(136, 90, 201);
+        font-family: 'Patrick Hand', cursive;
+    }
+
+     *{
+        font-family: 'Patrick Hand', cursive;
+        color: rgb(155, 155, 250);
+        
+    }
+    .header{
+        
+        background-color: aquamarine;
+        display:flex;
+        justify-content: space-between;
+        border:solid;
+        }
+        .grid{
+            display:flex;
+            flex-wrap:wrap;
+            justify-content: space-evenly;
+            border:solid
+        }
+        .socialmedia{
+            display:flex;
+            justify-content: flex-end;
+        }
+        p,h2{
+            font-family: 'Patrick Hand', cursive;
+            text-align:center;
+        }
